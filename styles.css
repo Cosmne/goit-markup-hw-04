@@ -15,26 +15,31 @@ body {
   font-family: "roboto", "raleway", sans-serif;
   font-family: "roboto";
   color: var(--text-color);
-  width: 1600px ;
-  height: 2348px ;
+  width: 1600px;
+  height: 2348px;
   margin: 0;
-  padding:0;
- 
+  padding: 0;
 }
+
 ul {
   list-style: none;
 }
+
 h1 {
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 60px;
-    letter-spacing: 0.06em;
-    text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
 }
+
 .logo :hover {
   color: var(--button-color);
 }
-#current {color: var(--button-color);}
+
+#current {
+  color: var(--button-color);
+}
 
 .logo {
   font-family: "Raleway";
@@ -48,22 +53,20 @@ h1 {
   padding-top: 24px;
   padding-left: 215px;
   box-sizing: border-box;
- 
+
 }
-  
+
 .studio-head {
   color: var(--button-color);
 }
+
 .web-head-foot {
   color: var(--button-color);
 }
+
 .studio-foot {
   color: var(--bg-color);
 }
-.lists ul {
-  list-style: none;
-}
-
 
 /*Studio*/
 /*header-footer*/
@@ -74,39 +77,42 @@ h1 {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: inherit;
-  width: 1600px;
   height: 80px;
   box-sizing: border-box;
   border: 1px solid #ECECEC;
-  
 }
+
+
 .header-style a {
   text-decoration: none;
 }
+
 .main-navigation {
   color: inherit;
 }
+
 .main-navigation a:link {
   color: inherit;
 }
-.main-navigation :current{
+
+.main-navigation :current {
   color: var(--button-color)
 }
 
 .main-navigation a:hover {
   color: var(--button-color);
 }
-.main-navigation ul {
-  list-style: none;
-}
+
 .main-buttons {
   color: var(--title-color);
 }
+
 .subpage-navigation button:hover {
   background-color: var(--button-color);
   color: var(--bg-color);
   cursor: pointer;
 }
+
 .subpage-navigation button:focus {
   background-color: var(--button-effect);
   color: var(--bg-color);
@@ -118,20 +124,24 @@ h1 {
   font-size: 16px;
   color: var(--title-color);
   background-color: var(--subpage-buttons);
-  width: fit-content ;
-  height: 38px ;
+  width: fit-content;
+  height: 38px;
   border-radius: 4px;
   border-style: none;
-  margin-left: 8px;
-  
+  padding-left: 4%;
+  padding-right: 4%;
 }
+
 .subpage-navigation {
   display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 0;
-  padding-top: 0;
+  width: 516px;
+  height: 38px;
+
 }
+
 .footer-style {
   font-family: inherit;
   font-size: 14px;
@@ -141,9 +151,11 @@ h1 {
   font-style: normal;
   background-color: var(--basement-color);
 }
+
 .footer-style a {
   text-decoration: none;
 }
+
 .footer-style ul {
   list-style: none;
   padding: 0;
@@ -154,20 +166,25 @@ h1 {
 a:visited {
   color: inherit;
 }
+
 .footer-style a:hover {
   color: var(--button-color);
 }
+
 .set-adress {
   color: var(--bg-color);
 }
+
 .contacts {
   opacity: 0.6;
 }
+
 /*top-section*/
 .main-title {
-  background-image: url(/images/Imgbg.jpg);
+  background-color: var(--basement-color);
   color: var(--bg-color);
 }
+
 /*Main-Button*/
 .req-serv-button {
   background-color: var(--button-color);
@@ -186,9 +203,11 @@ a:visited {
 .req-serv-button:hover {
   background-color: var(--button-effect);
 }
+
 .req-serv-button:focus {
   background-color: var(--button-effect);
 }
+
 /*title-text*/
 .h3-studio {
   color: var(--title-color);
@@ -199,6 +218,7 @@ a:visited {
   text-align: left;
   margin-top: 0 auto;
 }
+
 .h2-studio {
   color: var(--title-color);
   font-family: inherit;
@@ -206,18 +226,21 @@ a:visited {
   font-weight: 700;
   letter-spacing: 0.03em;
   text-align: center;
-  margin:0 auto;
+  margin: 0 auto;
 }
+
 .services {
   letter-spacing: 0.03em;
-  list-style: none; 
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0;
-  margin: 0;
-  
+  margin-top: 50px;
+  margin-bottom: 0;
+
 }
+
 .p-studio {
   font-family: inherit;
   font-size: 14px;
@@ -225,6 +248,7 @@ a:visited {
   letter-spacing: 0.03em;
   text-align: left;
 }
+
 .team-studio {
   color: var(--title-color);
   font-family: inherit;
@@ -232,7 +256,9 @@ a:visited {
   font-weight: 500;
   letter-spacing: 0.03em;
   text-align: center;
+
 }
+
 /*text*/
 .team-studio-description {
   font-family: inherit;
@@ -240,6 +266,8 @@ a:visited {
   font-weight: 400;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 10px;
+
 }
 
 /*Portofolio*/
@@ -251,6 +279,7 @@ a:visited {
   text-align: left;
   color: var(--title-color);
 }
+
 .services span {
   font-family: inherit;
   font-size: 15px;
@@ -258,222 +287,179 @@ a:visited {
   letter-spacing: 0.03em;
   text-align: left;
 }
+
 .studio-head {
   color: var(--logo-color);
 }
+
 /*PageAlign*/
 
 .header-style {
   display: flex;
   flex-direction: row;
-  width: 1600px; 
   height: 80px;
   box-sizing: border-box;
 }
 
-.container-mid {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding:0;
-  margin: 0;  
-}
 .container-mid li {
   box-sizing: border-box;
   width: 270px;
-  height: 251px;
+  height: 101px;
   padding: 0;
   margin: 0;
 }
+
+.centering {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container-mid {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 94px;
+}
+
 .team-position li {
   box-sizing: border-box;
-  width: 270px ;
-  height: 428px ;
+  width: 270px;
+  height: 368px;
   box-shadow: 0px 2px 1px 0px #00000033;
   box-shadow: 0px 1px 1px 0px #00000024;
   box-shadow: 0px 1px 3px 0px #0000001F;
   background-color: #ffffff;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
+
 .team-position {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin-top: 50px;
   margin-bottom: 0;
   padding-left: 0;
-}
-.team-position li {
-  text-align: center;
+  width: inherit;
 }
 
-.ocupation  {
+.team-position img {
+  padding-bottom: 30px;
+}
+
+.bottom-style {
+  background-color: #F5F4FA;
+  margin: 0;
+  padding: 0;
+}
+
+.ocupation {
   display: flex;
   flex-direction: row;
-  margin: 0;
+  margin-top: ;
   padding-top: 50px;
   padding-left: 0;
   justify-content: space-between;
-  
+  width: inherit;
 }
+
 .container {
-  width: 1200px;  
-  margin-top: 94px;
-  margin-left: 215px;
-  display:inline-block;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   box-sizing: border-box;
   padding: 0;
-  border: 1px solid red;
-  
+
 }
+
 .main-title {
-  width: 1600px;
   height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
 }
+
 .container-header {
   display: flex;
   margin: 32px;
-  
 }
+
 .main-navigation {
   display: inline-block;
   box-sizing: border-box;
   flex-direction: row;
   margin: 0;
-} 
+}
+
 .main-buttons {
   box-sizing: border-box;
   width: fit-content;
   margin-left: 50px;
 }
+
 .links {
   display: inline-flex;
   box-sizing: border-box;
   margin-left: 40px;
 }
+
 .box {
   display: inline-flex;
-    box-sizing: border-box;
-    width: 385px;
+  box-sizing: border-box;
+  width: 385px;
 }
+
 .footer-style {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: 1600px;
   height: 251px;
   padding-top: 36px;
 }
-.margin-footer {
-  margin-top: 94px;
-}
-.contacts, .set-adress {
+
+.contacts,
+.set-adress {
   display: flex;
   margin-left: 215px;
   margin-top: 12px;
 }
+
 .button {
   display: flex;
   justify-content: center;
 }
-.bottom-main {
+
+.employees {
   background-color: #F5F4FA;
-  width: 1600px;
   height: 648px;
   margin-top: 94px;
+  display: flex;
+  justify-content: space-between;
+
 }
+
 .services li {
   box-sizing: border-box;
   border: 1px solid #ECECEC;
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
-.services  {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  
-}
-.main-portfolio {
-  display: block;
-  justify-content: center;
-}
+
 .card-description {
   margin-top: 20px;
   margin-left: 24px;
-  
 }
+
 .h3-portfolio {
   margin-top: 20px;
   margin-left: 24px;
-}
-/* Decorations */
-.decoration-studio1 {
-width: 270px ;
-height: 120px ;
-border-radius: 4px;
-background-color: #F5F4FA;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 30px;
-}
-.decoration-studio1 img {
-  width: 70px ;
-  height: 70px ;
-}
-.header-decoration ::before img {
-  display: block;
-}
-.qualities {
-  display: inline-block;
-  width: 270px;
-  height: 251px; 
-}
-.customers li {
-  width: 170px ;
-  height: 92px ;
-  border-radius: 4px ;
-  border: 1px solid #AFB1B8; 
-}
-.customers img {
-  padding: 16px 32px;
-}
-
-.customers {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0;
-  margin-top: 50px;
-  margin-bottom: 0px;
-}
-.social-platforms {
-  width: 206px ;
-  height: 44px ;
-  margin-left: 32px;
-  margin-top: 16px;
-  border: 1px solid red;
-  display: flex;
-  justify-content: space-between;
-  
-}
-.social-platforms-each {
-padding: 12px;
-border-radius: 180px;
-
-}
-.social-platforms :hover {
-  background-color: var(--button-color);
-  cursor: pointer;
-}
-.social-platforms :focus {
-  
-  background-color: var(--button-color);
-  color: #ffff;
-    cursor: pointer;
 }
