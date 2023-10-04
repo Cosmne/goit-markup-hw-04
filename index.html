@@ -24,7 +24,7 @@
     </div>
 
     <nav class="main-navigation">
-      <ul class="container-header">
+      <ul>
         <li class="main-buttons">
           <a id="current" rel="stylesheet" href="index.html">Studio</a>
         </li>
@@ -35,17 +35,23 @@
           <a rel="stylesheet" href="Contacts">Contacts</a>
         </li>
         <li class="box"></li>
-        <li>
-          <a class="links" rel="stylesheet" href="info@devstudio.com">info@devstudio.com</a>
+        <li class="links">
+          <svg class="insta-head">
+            <use href="./images/icons.svg#icon-envelope" width="16px" height="12px" />
+          </svg>
+          <a rel="stylesheet" href="info@devstudio.com">info@devstudio.com</a>
         </li>
-
-        <li>
-          <a class="links" rel="stylesheet" href="+1&nbsp;212-772-4150">+1&nbsp;212-772-4150</a>
+        <li class="links">
+          <svg class="smartphone-head">
+            <use href="./images/icons.svg#icon-smartphone" width="14" height="16" />
+          </svg>
+          <a rel="stylesheet" href="+1&nbsp;212-772-4150">+1&nbsp;212-772-4150</a>
         </li>
       </ul>
     </nav>
   </header>
   <!--Title-->
+<main class="main-index">
   <section class="main-title">
     <div>
       <h1>
@@ -61,14 +67,16 @@
       </div>
     </div>
   </section>
-
+</main>
   <!--Main Section -->
 
-  <main>
     <section class="centering">
       <div class="container">
         <ul class="container-mid">
           <li>
+            <svg class="planning-icons">
+              <use href="/images/icons.svg#icon-antenna1"  width="70" height="70" />
+            </svg> 
             <h3 class="h3-studio">ATTENTION TO DETAILS</h3>
             <p class="p-studio">
               We go into all the details and processes of your business to
@@ -76,7 +84,10 @@
             </p>
           </li>
 
-          <li>
+          <li >
+            <svg class="planning-icons">
+              <use href="/images/icons.svg#icon-clock1" width="70" height="70" />
+            </svg>
             <h3 class="h3-studio">PUNCTUALITY</h3>
 
             <p class="p-studio">
@@ -86,6 +97,9 @@
           </li>
 
           <li>
+            <svg class="planning-icons">
+              <use href="/images/icons.svg#icon-diagram1" width="70" height="70" />
+            </svg>
             <h3 class="h3-studio">PLANNING</h3>
 
             <p class="p-studio">
@@ -95,6 +109,9 @@
           </li>
 
           <li>
+            <svg class="planning-icons">
+              <use href="/images/icons.svg#icon-astronaut1" width="70" height="70" />
+            </svg>
             <h3 class="h3-studio">MODERN TECHNOLOGIES</h3>
 
             <p class="p-studio">
@@ -167,7 +184,7 @@
         </div>
       </section>
     </div>
-  </main>
+  
 
   <!--Bottom Section -->
 
@@ -195,5 +212,4 @@
     </address>
   </footer>
 </body>
-
 </html>
