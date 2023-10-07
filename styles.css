@@ -24,7 +24,6 @@ body {
 ul {
   list-style: none;
 }
-
 h1 {
   font-size: 44px;
   font-weight: 900;
@@ -32,7 +31,6 @@ h1 {
   letter-spacing: 0.06em;
   text-align: center;
 }
-
 .logo :hover {
   color: var(--button-color);
 }
@@ -40,7 +38,6 @@ h1 {
 #current {
   color: var(--button-color);
 }
-
 .logo {
   font-family: "Raleway";
   font-size: 26px;
@@ -52,17 +49,28 @@ h1 {
   box-sizing: border-box;
 
 }
-
 .studio-head {
   color: var(--button-color);
 }
-
 .web-head-foot {
   color: var(--button-color);
 }
-
 .studio-foot {
   color: var(--bg-color);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  padding: 0;
+  border: 1px solid red;
+}
+.centering {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*Studio*/
@@ -320,14 +328,6 @@ a:visited {
   margin-top: 0;
   margin-bottom: 94px;
 }
-.centering {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .team-position li {
   display: flex;
@@ -372,15 +372,7 @@ a:visited {
   width: inherit;
 }
 
-.container {
-  width: 1200px;
-  display: flex;
-  /*flex-wrap: wrap;
-  justify-content: center;
-  box-sizing: border-box; */
-  padding: 0;
-  border: 1px solid red;
-}
+
 .main-title {
   height: 600px;
   display: flex;
