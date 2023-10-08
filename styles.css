@@ -328,6 +328,22 @@ a:visited {
   margin-top: 0;
   margin-bottom: 94px;
 }
+.container-mid svg {
+     /* 
+      padding-left: 20px; */
+      width: 70px;
+      height: 70px;
+      
+}
+.container-mid div {
+  width: 270px;
+  height: 120px;
+  background-color: #AFB1B8;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .team-position li {
   display: flex;
@@ -365,13 +381,16 @@ a:visited {
 .ocupation {
   display: flex;
   flex-direction: row;
-  margin-top: ;
   padding-top: 50px;
   padding-left: 0;
+  margin: 0 auto;
   justify-content: space-between;
   width: inherit;
 }
 
+.services li:nth-last-child(-n+3) {
+ margin-bottom: 0;
+}
 
 .main-title {
   height: 600px;
@@ -463,18 +482,18 @@ a:visited {
   margin-left: 24px;
 }
 /* Icon styles*/
-.planning-icons {
-  background-color: #F5F4FA;
-  width: 270px;
-  height: 120px;
-}
+
+
 .customer-icons svg {
   width: 106px;
   height: 60px;
   border: 1px solid #AFB1B8;
   padding: 16px 20px;
+  
 }
 .customer-icons {
-  display:flex;
-  justify-content: space-between;
+ margin-top: 50px;
+ width: inherit;
+ display: flex;
+ justify-content: space-between;
 }
