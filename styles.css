@@ -64,7 +64,7 @@ h1 {
   align-items: center;
   width: 1200px;
   padding: 0;
-  border: 1px solid red;
+  
 }
 .centering {
   display: flex;
@@ -193,13 +193,14 @@ a:visited {
 .main-index {
   display: flex;
   justify-content: space-around;
-    background: linear-gradient(to left, #29221aee, #111111);
+  background-image: url(images/Imgbg.jpg);
+    
 }
 .main-title {
-  
-  background-image: url(images/Imgbg.jpg);
-  width: 1440px;
+  background: linear-gradient(to bottom, #a7a09850, #111111);
+  background-size: cover;
   color: var(--bg-color);
+  width: 1600px;
 }
 
 /*Main-Button*/
@@ -248,14 +249,12 @@ a:visited {
 
 .services {
   letter-spacing: 0.03em;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0;
   margin-top: 50px;
   margin-bottom: 0;
-
 }
 
 .p-studio {
@@ -399,24 +398,20 @@ fill: #AFB1B8;
   width: 206px;
   height: 44px;
   padding:16px 32px;
+  
 }
 .team-position li {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  width: 270px;
-  border-radius: 0px, 0px, 4px, 4px;
-  box-shadow: 0px 2px 1px 0px #00000033;
-    box-shadow: 0px 1px 1px 0px #00000024;
-    box-shadow: 0px 1px 3px 0px #0000001F;
-    background-color: #ffffff;
+  background-color: #ffffff;
+  
 }
 .team-icons svg {
   width: 20px;
   height: 20px;
 }
 .team-icons {
-    
     width: 206px;
     height: 44px;
     margin:0;
@@ -428,7 +423,12 @@ fill: #AFB1B8;
 .links :hover {
   fill: var(--button-effect);
 }
-
+.shadow {
+  border-radius: 0px, 0px, 4px, 4px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+    box-shadow: 0px 1px 1px 0px #00000024;
+    box-shadow: 0px 1px 3px 0px #0000001F;
+}
 
 .team-position {
   display: flex;
@@ -438,7 +438,7 @@ fill: #AFB1B8;
   padding-left: 0;
   width: inherit;
   height:428px;
-  
+
 }
 
 .team-position img {
@@ -548,6 +548,13 @@ fill: #AFB1B8;
   border: 1px solid #ECECEC;
   padding-bottom: 20px;
   margin-bottom: 30px;
+}
+
+.services li:hover {
+  cursor: pointer;
+  box-shadow: 10px 4px 6px 0px #00000029;
+  box-shadow: 5px 4px 4px 0px #0000000F;
+  box-shadow: 5px 5px 1px 0px #0000001F;
 }
 
 .card-description {
