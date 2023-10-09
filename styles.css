@@ -37,7 +37,10 @@ h1 {
 
 #current {
   color: var(--button-color);
+  padding-bottom: 28px;
+  border-bottom: 5px solid var(--button-color);
 }
+
 .logo {
   font-family: "Raleway";
   font-size: 26px;
