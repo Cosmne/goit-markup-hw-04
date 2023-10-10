@@ -15,7 +15,7 @@ body {
   font-family: "roboto", "raleway", sans-serif;
   font-family: "roboto";
   color: var(--text-color);
-  width: 1600px;
+  width: 100%;
   height: 2348px;
   margin: 0;
   padding: 0;
