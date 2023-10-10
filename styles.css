@@ -197,15 +197,22 @@ a:visited {
   display: flex;
   justify-content: space-around;
   background-image: url(images/Imgbg.jpg);
-    
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main-title {
   background: linear-gradient(to bottom, #a7a09850, #111111);
-  background-size: cover;
   color: var(--bg-color);
-  width: 1600px;
+  width: 100%;
 }
-
+.customer-icons svg:hover {
+  fill: var(--button-color);
+  border:1px solid var(--button-color);
+}
+.customer-icons svg:focus {
+  fill: var(--button-color);
+  border: 1px solid var(--button-color);
+}
 /*Main-Button*/
 .req-serv-button {
   background-color: var(--button-color);
@@ -575,6 +582,7 @@ fill: #AFB1B8;
   width: 106px;
   height: 60px;
   border: 1px solid #AFB1B8;
+  fill: #AFB1B8;
   padding: 16px 20px;
   
 }
